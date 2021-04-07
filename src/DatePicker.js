@@ -1,10 +1,11 @@
-import React, {Component} from 'react'
+import React, {Component, useState} from 'react'
 import ReactDOM from 'react-dom'
+import DatePicker from 'react-datepicker'
 
-class DatePicker extends Component {
+class DatePickerEl extends Component {
     render() {
         return <h2>DatePicker</h2>
     }
 }
 
-export default DatePicker;
+export default DatePickerEl;

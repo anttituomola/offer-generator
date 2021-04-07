@@ -1,5 +1,5 @@
 import './App.css';
-import DatePicker from './DatePicker'
+import DatePickerEl from './DatePickerEl'
 import Elements from './Elements'
 import PrintButton from './PrintButton'
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1>OFFER GENERATOR</h1>
-      <DatePicker />
+      <DatePickerEl />
       <Elements />
       <PrintButton />
     </div>

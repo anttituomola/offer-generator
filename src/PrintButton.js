@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import ReactDOM from 'react-dom'
+import './../node_modules/bulma/css/bulma.css'
 
 class PrintButton extends Component {
     render() {
