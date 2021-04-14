@@ -1,24 +1,10 @@
-import React, {Component, useState} from 'react'
-import DatePicker from 'react-datepicker'
+import React, {Component} from 'react'
 
 
-class DatePickerEl extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-        function testFunction() {
-            const [startDate, setStartDate] = this.useState(new Date());
-            return (
-                <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
-            )
-        }
-        testFunction();
-    }
-
-    
+class DatePickerEl extends Component {    
     render() { 
         return ( <div>
-            <DatePickerEl />
+            <div className="title is-3">Date picker here</div>
             </div> );
     }
 }

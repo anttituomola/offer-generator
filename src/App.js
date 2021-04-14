@@ -6,7 +6,7 @@ import PrintButton from './PrintButton'
 function App() {
   return (
     <div>
-      <h1>OFFER GENERATOR</h1>
+      <div className="title is-1">OFFER GENERATOR</div>
       <DatePickerEl />
       <Elements />
       <PrintButton />
