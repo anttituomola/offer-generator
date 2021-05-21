@@ -8,7 +8,7 @@ const menuElements = [
         availabilityStart: Date.now(),
         availabilityEnd: Date.now(),
         id: 1,
-        checked: true
+        checked: false
     },
     {
         name: "ingredient 2",
