@@ -58,8 +58,8 @@ class Elements extends Component {
 
     render() {
         return <div>
+            <table className="table">
             {this.state.elements.map((menuElement) => (
-                <table key={menuElement.id} className="table">
                     <tbody>
                         <tr>
                             <td><input id={menuElement.id} checked={menuElement.checked} type="checkbox" name={menuElement.name} onChange={this.handleCheckboxState} className="checkbox"/></td>
@@ -67,8 +67,8 @@ class Elements extends Component {
                             <td>{menuElement.price} €</td>
                         </tr>
                     </tbody>
-                </table>
             ))}
+            </table>
         </div>
     }
 }
